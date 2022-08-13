@@ -491,7 +491,8 @@ class Guild extends Base {
    * @readonly
    */
   get partnered() {
-    return this?.features?.includes('PARTNERED') || false
+    //return this?.features?.includes('PARTNERED') || false
+    return false;
   }
 
   /**
@@ -500,7 +501,8 @@ class Guild extends Base {
    * @readonly
    */
   get verified() {
-    return this?.features?.includes('VERIFIED') || false
+    //return this?.features?.includes('VERIFIED') || false
+    false;
   }
 
   /**
